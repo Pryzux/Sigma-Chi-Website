@@ -1,0 +1,453 @@
+.top-panel {
+  margin-bottom: 0rem;
+  background-color: #81b29a;
+}
+.scrollbar {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+}
+.mainScrollbar {
+  position: relative;
+  height: 250px;
+  overflow: auto;
+}
+.table-scroll-y {
+  display: block;
+}
+
+.table-headers {
+  background-color: #fff5e2 !important;
+  color: #c79350 !important;
+  border: none !important;
+  box-shadow: 0px 1px 2px 0px #e6b276 !important;
+}
+
+.custom-table-body {
+  background-color: #fff5e22c !important;
+  color: #7e7e7e !important;
+  border: none !important;
+}
+
+.table-input-fields {
+  text-align: center;
+  border-style: none none solid none;
+  border-color: rgba(0, 0, 0, 0.11);
+  background-color: rgba(255, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.514);
+  font-weight: bold;
+}
+
+.table-input-fields:focus {
+  outline: none;
+}
+
+.pt-3-half {
+  padding-top: 1.4rem;
+  padding-bottom: 0rem;
+}
+
+.nomargin {
+  padding-bottom: 0rem !important;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-bottom: 0rem !important;
+}
+
+.side-panel {
+  margin-bottom: 0rem;
+  margin-right: 0rem;
+  width: 25%;
+  background-color: #f2cc8f;
+}
+
+.middle-row {
+  height: 5000px;
+}
+
+.main-panel {
+  background-color: #fffcf2;
+  margin-bottom: 0rem;
+  margin-right: 0rem;
+  width: 75%;
+  height: 310px;
+}
+
+.bottom-panel {
+  background-color: #fffcf2;
+  margin-bottom: 0rem;
+  margin-right: 0rem;
+  width: 75%;
+  height: 54.5vh;
+
+  /*height: 650px !important; removed due to problems*/
+  min-height: 100%;
+  overflow: auto;
+}
+
+.bottom-graphs {
+  background-color: #fffcf2;
+  margin-bottom: 0rem;
+  margin-right: 0rem;
+  width: 100%;
+  height: 54vh;
+
+  /*height: 650px !important; removed due to problems*/
+  min-height: 100%;
+  overflow: auto;
+}
+
+#graphs {
+  display: flex;
+}
+
+.input {
+  display: none;
+  width: 5px;
+  height: 5px;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  background-color: #e07a5f !important;
+  color: white !important;
+  box-shadow: 0px 3px 0px 0px #c76c53 !important;
+}
+
+.btn:hover {
+  background-color: #cd7158 !important;
+  color: white !important;
+  box-shadow: 0px 3px 0px 0px #b1604a !important;
+}
+
+.divider {
+  background-color: #f2cc8f;
+  margin-bottom: 0rem;
+}
+
+.border {
+  border-color: black !important;
+}
+
+.top-divider {
+  margin-bottom: 0rem;
+  background-color: #e9ac4a;
+  height: 18px;
+}
+
+.bottom-divider {
+  margin-bottom: 0rem;
+  background-color: #cc7e00;
+  height: 5px;
+}
+
+.data-btn {
+  width: 5000px;
+  height: 50px;
+}
+
+.nav-item {
+  padding: 5px;
+  margin: 5px;
+  background-color: #e9ac4a !important;
+  color: white !important;
+  width: 100%;
+  box-shadow: 0px 5px 0px #cc7e00;
+  padding-top: 10px !important;
+}
+
+.navbar {
+  padding: 0 !important;
+  height: 100%;
+  /* margin-top: 4px; */
+}
+
+nav .col {
+  padding: 0 !important;
+}
+
+a {
+  text-align: center !important;
+}
+
+label {
+  text-align: center !important;
+}
+
+#datasets {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.datasetBox {
+  min-height: 50px;
+  height: 50px;
+  margin-top: 4px !important;
+  margin-bottom: 6px !important;
+  background-color: #e9ac4a;
+  box-shadow: 0px 4px 0px 0px #cc7e00b2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600 !important;
+  font-size: 20px;
+  color: white;
+}
+
+.datasetBox:hover {
+  background-color: #e2a542 !important;
+  box-shadow: 0px 4px 0px 0px #bb7300bd;
+  color: white !important;
+}
+
+.highlighted-dataset {
+  min-height: 50px;
+  height: 50px;
+  margin-top: 4px !important;
+  margin-bottom: 6px !important;
+  background-color: #f39d33;
+  box-shadow: 0px 4px 0px 0px #d47918cc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600 !important;
+  font-size: 20px;
+  color: white;
+}
+
+.highlighted-dataset:hover {
+  background-color: #f39d33 !important;
+  box-shadow: 0px 4px 0px 0px #d47918cc !important;
+  color: white !important;
+}
+
+.graph-info-text {
+  color: rgb(139, 139, 139);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.check {
+  margin-left: 130px !important;
+}
+
+.add {
+  background-color: #c79e5c !important;
+  color: white !important;
+  border: none;
+  width: 100%;
+  height: 30px !important;
+  line-height: 50% !important;
+}
+
+.add:hover {
+  background-color: #bb8d43 !important;
+  color: white !important;
+  width: 100%;
+}
+
+.add-row-btn {
+  background-color: #c79e5c !important;
+  color: white !important;
+  border: none;
+  width: 100%;
+  height: 200px !important;
+}
+
+.add-row-btn:hover {
+  background-color: #bb8d43 !important;
+  color: white !important;
+  width: 100%;
+}
+
+.brand {
+  height: 180px;
+  width: 170px;
+  opacity: 0.4;
+}
+
+.dataText {
+  padding-left: 30px;
+}
+
+.bg-colour-evaluation-settings {
+  background-color: #f9f4e2 !important;
+  border-left-color: #e07a5f !important;
+  border-right-color: #e07a5f !important;
+  border-bottom-color: #e07a5f !important;
+  border-width: medium !important;
+  color: #3d405b !important;
+  width: 350px;
+}
+
+.header-font-evaluation-settings {
+  font-size: 18px !important;
+}
+
+select {
+  border-color: #ffd490;
+  color: #707070;
+}
+
+select:focus {
+  border-color: #e9ac4a !important;
+  outline-width: 2px !important;
+  outline-color: #e9ac4a !important;
+}
+
+select:active {
+  border-color: #e9ac4a !important;
+}
+
+select:hover {
+  border-color: #e9ac4a !important;
+}
+
+.header-underline {
+  background-color: #77a38d;
+  height: 6px;
+}
+
+.bandwidth-fix {
+  border: 1px solid #ffd490 !important;
+  color: #707070 !important;
+  max-height: 25px !important;
+  padding-right: 0px !important;
+}
+
+.bandwidth-fix:focus {
+  border-color: #e9ac4a !important;
+  outline: solid;
+  outline-width: 1px !important;
+  outline-color: #e9ac4a !important;
+}
+
+.bandwidth-fix:active {
+  border-color: #e9ac4a !important;
+}
+
+.bandwidth-fix:hover {
+  border-color: #e9ac4a !important;
+}
+
+.eval-refresh {
+  background-color: #3d405b00;
+  border: none;
+  color: #3d405b;
+}
+
+.fontFix {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700 !important;
+  font-size: 22px !important;
+}
+
+.import-button {
+  right: 51px !important;
+}
+
+.select-width {
+  min-width: 100%;
+}
+
+.graph-header {
+  background-color: #fff5e2 !important;
+  color: #e4b16f !important;
+  border: none !important;
+  box-shadow: 0px 1px 2px 0px #e6b276b2 !important;
+  font-size: 24px;
+}
+
+.graph-size {
+  width: 95% !important;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.btn1 {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #e07a5f;
+  color: white;
+  box-shadow: 0px 3px 0px 0px #c76c53;
+  border: 0px solid #73ad21;
+  z-index: 10;
+  position: relative;
+  left: 0%;
+  top: 0px;
+}
+
+.btn1:hover {
+  background-color: #cd7158 !important;
+  color: white !important;
+  box-shadow: 0px 3px 0px 0px #b1604a !important;
+}
+
+.export-menu {
+  background-color: #f9f4e2 !important;
+  border-left-color: #e07a5f !important;
+  border-right-color: #e07a5f !important;
+  border-bottom-color: #e07a5f !important;
+  border-width: medium !important;
+}
+
+.export-items {
+  color: #3d405b !important;
+  font: bold;
+  cursor: default;
+}
+
+.export-items:hover {
+  background-color: #f7eac2 !important;
+}
+
+.cursor-fix {
+  cursor: default;
+}
+
+.edit-label {
+  background-color: #e9ac4a00 !important;
+  border: none;
+  color: white;
+  padding: 0 !important;
+}
+
+.edit-dropdown {
+  position: absolute !important;
+  width: 90px !important;
+  min-width: 0px !important;
+  border: none !important;
+  background-color: #fff6dd !important;
+}
+
+[input] {
+  outline: 0px solid transparent;
+}
+
+.dropdown-edit-options {
+  padding: 0 !important;
+  color: #977c66 !important;
+}
+
+.dataset-names {
+  background-color: #3d405b00 !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  border: none !important;
+  text-align: center;
+  color: white !important;
+}
+
+.dataset-names:focus {
+  outline: 0px solid transparent;
+}
+
+.dataset-names::placeholder {
+  color: white !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
